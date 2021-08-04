@@ -1,18 +1,11 @@
 description:
-    title: "General infos"
+    title: "Informazioni Generali"
     paragraphs:
         - paragraph:
-            - line: "2<sup>nd</sup> round of registration will be open until 21<sup>st</sup> January at 24:00."
+            - line: "Le iscrizioni partiranno il <b>? Agosto 2021</b> e saranno attive fino alle <b>? del ? ? Agosto 2021</b>."
+            - line: "La partecipazione all'evento è completamente <b>gratuita</b>."
         - paragraph:
-            - line: "You can find the registration form at the bottom of this page."
-            - line: "Please read the terms and conditions below. Please note that, upon registration, you will be asked for personal details (such as name, surname, date of birth, university affiliation, etc.) and a motivational letter."
-
-sections:
-    - name: "Terms"
-      info: "Please read carefully and take note of the following:"
-      points:
-        - text: "All personal data will be handled confidentiallyand in compliance with the European (GDPR EU 2016/679) and Italian (Art. 13 D. Lgs. 196/2003) data and privacy protection laws."
-        - text: "You accept the IAPS Code of Conduct."
-          url: "files/IAPS_Code_of_Conduct.pdf"
-          button: "PDF"
+            - line: "Sei interessato a partecipare? Aiutaci a migliorare l'organizzazione dell'evento, compilando il form qui sotto."
+            - line: "La compilazione <b>non è vincolante</b> e sarà necessario completare l'iscrizione per prendere parte all'evento."
+            - line: "Il form verrà aggiornato nella sua versione definitiva con l'inizio delle iscrizioni. <b>Ricordati di compilarlo</b> per partecipare e poter ricevere le informazioni necessarie alla tua partecipazione."
  

@@ -1,0 +1,30 @@
+schedule:
+  - day: 16/09
+    date: "160921"
+    day_ex: Giovedì 16 Settembre
+    short_descr:
+    activity:
+      - hour: "9:00 - 10:00"
+        where:
+        who: "Laura Parisi"
+        descr: "B.C.E."
+        tag: conf
+        id: speaker/#parisi
+      - hour: "10:00 - 11:00"
+        where:
+        who: "Gabriele Rosi"
+        descr: "Measuring the Gravitational constant with atom interferometry for fundamental physics test"
+        tag: conf
+        id: speaker/#rosi
+      - hour: "11:00 - 12:00"
+        where:
+        who: "Francesca Bellini"
+        descr: "Starting Grant"
+        tag: conf
+        id: speaker/#bellini
+      - hour: "12:00 - 13:00"
+        where:
+        who: "Francesco Meinardi"
+        descr: "Technology transfer: how to bring laboratory research to the market"
+        tag: conf
+        id: speaker/#meinardi

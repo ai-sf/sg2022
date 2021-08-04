@@ -1,4 +1,4 @@
 
-# TIQIT
+# Sezione Giovani
 
-Sito ufficiale dell'evento TIQIT organizzato dal comitato locale di Trento
+Sito ufficiale dell'evento Sezione Giovani organizzato da AISF all'interno della conferenza annuale SIF.

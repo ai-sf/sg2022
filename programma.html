@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br/><br/><br/><br/><br/>
+            <h1 class="header center orange-text text-lighten-2"><b>PROGRAMMA</b></h1>
+            
+        </div>
+    </div>
+    <div class="parallax"><img src="{{site.url}}/img/SG21.png"></div>
+</div>
+
+<div class="container">
+
+    <div class="section">
+          <div class="row">
+       {% for item in site.data.programma.schedule %}
+        <div id="{{item.date}}" class="col s12">
+          <br>
+          <h5>{{ item.day_ex }}</h5>
+          <h5><b>{{ item.short_descr }}</b></h5>
+          <table>
+            <thread>
+              <tr>
+            <th data-field="time">Orario</th>
+            <!--<th data-field="where">Dove</th>-->
+            <th data-field="who">Chi</th>
+            <th data-field="what" style="text-align:center">Descrizione</th>
+            <th>Link</th>
+              </tr>
+            </thread>
+            <tbody>
+            {% for act in item.activity %}
+              {% if act.tag == nil %}
+                {% assign bg = "rgba(0,0,0,0)" %}
+                {% assign tc = "black" %}
+              {% elsif act.tag == "conf" %}
+                {% assign bg = "rgba(0,0,0,0)" %}
+                {% assign tc = "#0091EA" %}
+              {% elsif act.tag == "sera" %}
+                {% assign bg = "#eeeeee" %}
+                {% assign tc = "#000000" %}
+              {% elsif act.tag == "visit" %}
+                {% assign bg = "#rgba(0,0,0,0)" %}
+                {% assign tc = "#00C853" %}
+              {% elsif act.tag == "svago" %}
+                {% assign bg = "#eeeeee" %}
+                {% assign tc = "#000000" %}
+              {% elsif act.tag == "studenti" %}
+                {% assign bg = "rgba(0,0,0,0)" %}
+                {% assign tc = "#C51162" %}
+              {% elsif act.tag == "firstlast" %}
+                {% assign bg = "#eeeeee" %}
+                {% assign tc = "#000000" %}
+              {% elsif act.tag == "attivitaorg" %}
+                {% assign bg = "rgba(0,0,0,0)" %}
+                {% assign tc = "#24A081" %}
+              {% endif %}
+            <!-- {% if act.line != nil %}
+            <tr style="border-bottom:1px solid black">
+            {% else %}
+            <tr>
+            {% endif %} -->
+            <td style="background-color:{{bg}}">{{ act.hour }}</td>
+            <!--{% if act.map != nil %}
+            <td style="background-color:{{bg}}">{{ act.where }} <a href='{{act.map}}' target='_blank'><i class="fa fa-globe fa-lg" aria-hidden="true" style="color:{{site.data.generic.color1}}"></i></a></td>
+            {% else %}
+            <td style="background-color:{{bg}}">{{ act.where }}</td>
+            {% endif %}-->
+            <td style="background-color:{{bg}}"><b>{{ act.who }}</b></td>
+            <td style="background-color:{{bg}}; color:{{tc}}; text-align:center">{{ act.descr }}</td>
+            {% if act.id != nil %}
+            <td style="background-color:{{bg}}"><a href="{{site.url}}/{{act.id}}" target='_blank'><i class="fa fa-arrow-right fa-lg" style="color:{{site.data.generic.color1}}" aria-hidden="true"></i></a></td>
+            {% else %}
+            <td style="background-color:{{bg}}"></td>
+            {% endif %}
+            </tr>
+             {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+    {% endfor %}
+        </div>
+    </div>
+</div>
