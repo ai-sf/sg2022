@@ -3376,4 +3376,6 @@ article img { width: 100%; }
 
 #index-collection-eventi span { font-size: 1.64rem; line-height: 110%; margin: 0.82rem 0 0.656rem 0; }
 
+@media only screen and (max-width : 600px) { nav .brand-logo { font-size: 1.3rem; } }
+
 /*# sourceMappingURL=main.css.map */
