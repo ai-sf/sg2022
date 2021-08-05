@@ -8,23 +8,23 @@ schedule:
         where:
         who: "Laura Parisi"
         descr: "B.C.E."
-        tag: conf
+        tag:
         id: speaker/#parisi
       - hour: "10:00 - 11:00"
         where:
         who: "Gabriele Rosi"
         descr: "Measuring the Gravitational constant with atom interferometry for fundamental physics test"
-        tag: conf
+        tag:
         id: speaker/#rosi
       - hour: "11:00 - 12:00"
         where:
         who: "Francesca Bellini"
         descr: "Starting Grant"
-        tag: conf
+        tag:
         id: speaker/#bellini
       - hour: "12:00 - 13:00"
         where:
         who: "Francesco Meinardi"
         descr: "Technology transfer: how to bring laboratory research to the market"
-        tag: conf
+        tag:
         id: speaker/#meinardi

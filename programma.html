@@ -27,9 +27,9 @@ layout: default
               <tr>
             <th data-field="time">Orario</th>
             <!--<th data-field="where">Dove</th>-->
-            <th data-field="who">Chi</th>
-            <th data-field="what" style="text-align:center">Descrizione</th>
-            <th>Link</th>
+            <th data-field="who">Speaker</th>
+            <th data-field="what" style="text-align:center">Intervento</th>
+            <!--<th>Link</th>-->
               </tr>
             </thread>
             <tbody>
@@ -70,10 +70,10 @@ layout: default
             {% else %}
             <td style="background-color:{{bg}}">{{ act.where }}</td>
             {% endif %}-->
-            <td style="background-color:{{bg}}"><b>{{ act.who }}</b></td>
+            <td style="background-color:{{bg}}"><a href="{{site.url}}/{{act.id}}" target='_blank'><b>{{ act.who }}</b></a></td>
             <td style="background-color:{{bg}}; color:{{tc}}; text-align:center">{{ act.descr }}</td>
             {% if act.id != nil %}
-            <td style="background-color:{{bg}}"><a href="{{site.url}}/{{act.id}}" target='_blank'><i class="fa fa-arrow-right fa-lg" style="color:{{site.data.generic.color1}}" aria-hidden="true"></i></a></td>
+            <!--<td style="background-color:{{bg}}"><a href="{{site.url}}/{{act.id}}" target='_blank'><i class="fa fa-arrow-right fa-lg" style="color:{{site.data.generic.color1}}" aria-hidden="true"></i></a></td>-->
             {% else %}
             <td style="background-color:{{bg}}"></td>
             {% endif %}
