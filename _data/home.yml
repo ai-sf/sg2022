@@ -9,7 +9,7 @@ when: "Giovedì 16 Settembre 2021, dalle 9:00 alle 13:00"
 where: "A causa della situazione pandemica, anche quest'anno SG si svolgerà online"
 
 slideshow:
-  - img: img/SG21.png
+  - img: img/SG21mobile.png
     alt: "107° Congresso Nazionale SIF"
 
 paragraph: "Anche quest'anno AISF organizza la Sezione Giovani (SG), evento pensato per studenti di fisica inserito all'interno della programmazione del <a href='https://www.sif.it/attivita/congresso/107' target='_blank'>107° Congresso Nazionale</a> della Società Italiana di Fisica.  La SG 2021 sarà incentrata sulle opportunità per i giovani all'interno dell'Unione Europea (BCE, ERC, startup, ecc.)."
