@@ -239,10 +239,24 @@ padding: 20px 0 0 0;
 .collection .collection-item.avatar:not(.circle-clipper) > .circle {
     width: 125px;
     height: 125px;
+    @media #{$small-and-down} {
+            width: 75px;
+            height: 75px;
+    }
     top: 15px;
 }
 .collection .collection-item.avatar {
     padding-left: 160px;
+    @media #{$small-and-down} {
+        padding-left: 105px;
+    }
+}
+
+.collection .collection-item.avatar .paragraph {
+    margin-left: 0px;
+    @media #{$small-and-down} {
+        margin-left: -90px;
+    }
 }
 
 #overlay{

@@ -29,18 +29,18 @@ title: Speaker invitati
     </span>
   	<br>
 		{% if item.bio != nihil %}
-		<p style="text-align:justify">
+		<p class="paragraph" style="text-align:justify">
       {{ item.bio }}
     </p>
 		{% endif %}
 		<br>
 		{% if item.title != nil %}
-    <p style="color:{{site.data.generic.color1}}"><b>{{item.title}}</b></p>
-		<p style="text-align:justify">{{ item.abstract }}</p>
+    <p class="paragraph" style="color:{{site.data.generic.color1}}"><b>{{item.title}}</b></p>
+		<p class="paragraph" style="text-align:justify">{{ item.abstract }}</p>
 		{% endif %}
 
 		{% if item.slides != nil %}
-		<br><p><a href="{{site.url}}/files/Slides/{{item.slides}}" target="_blank" class ="blue-text" > <i class="fa fa-download" aria-hidden="true"></i> Scarica</a> le slides dell'intervento<br><br></p>
+		<br><p class="paragraph"><a href="{{site.url}}/files/Slides/{{item.slides}}" target="_blank" class ="blue-text" > <i class="fa fa-download" aria-hidden="true"></i> Scarica</a> le slides dell'intervento<br><br></p>
 	    </li>
 		{% endif %}
 	{% endfor %}

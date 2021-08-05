@@ -3358,7 +3358,15 @@ article img { width: 100%; }
 
 .collection .collection-item.avatar:not(.circle-clipper) > .circle { width: 125px; height: 125px; top: 15px; }
 
+@media only screen and (max-width : 600px) { .collection .collection-item.avatar:not(.circle-clipper) > .circle { width: 75px; height: 75px; } }
+
 .collection .collection-item.avatar { padding-left: 160px; }
+
+@media only screen and (max-width : 600px) { .collection .collection-item.avatar { padding-left: 105px; } }
+
+.collection .collection-item.avatar .paragraph { margin-left: 0px; }
+
+@media only screen and (max-width : 600px) { .collection .collection-item.avatar .paragraph { margin-left: -90px; } }
 
 #overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.5; z-index: 60; display: none; }
 
