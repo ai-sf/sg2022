@@ -1,21 +1,8 @@
 ---
-layout: default
+layout: page
+title: Programma
 ---
 
-<div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <br/><br/><br/><br/><br/><br/>
-            <h2 class="header center orange-text text-lighten-2"><b>SCHEDULE</b></h2>
-            
-        </div>
-    </div>
-    <div class="parallax"><img src="{{site.url}}/img/SG21.png"></div>
-</div>
-
-<div class="container">
-
-    <div class="section">
           <div class="row">
        {% for item in site.data.programma.schedule %}
         <div id="{{item.date}}" class="col s12">
@@ -28,7 +15,7 @@ layout: default
             <th data-field="time">Orario</th>
             <!--<th data-field="where">Dove</th>-->
             <th data-field="who">Speaker</th>
-            <th data-field="what" style="text-align:center">Intervento</th>
+            <th data-field="what" style="text-align:center; width:45%">Intervento</th>
             <!--<th>Link</th>-->
               </tr>
             </thread>
@@ -85,5 +72,3 @@ layout: default
 
     {% endfor %}
         </div>
-    </div>
-</div>

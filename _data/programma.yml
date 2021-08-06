@@ -14,7 +14,7 @@ schedule:
         where:
         who: "Gabriele Rosi"
         descr: "Measuring the Gravitational constant with atom interferometry for fundamental physics test"
-        tag:
+        tag: "sera"
         id: speaker/#rosi
       - hour: "11:00 - 12:00"
         where:
@@ -26,5 +26,5 @@ schedule:
         where:
         who: "Francesco Meinardi"
         descr: "Technology transfer: how to bring laboratory research to the market"
-        tag:
+        tag: "sera"
         id: speaker/#meinardi
