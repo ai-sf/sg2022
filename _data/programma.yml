@@ -19,7 +19,7 @@ schedule:
       - hour: "11:00 - 12:00"
         where:
         who: "Francesca Bellini"
-        descr: "Starting Grant"
+        descr: "The CosmicAntiNuclei project: from the proposal to the starting blocks "
         tag:
         id: speaker/#bellini
       - hour: "12:00 - 13:00"
