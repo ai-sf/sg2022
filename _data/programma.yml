@@ -7,7 +7,7 @@ schedule:
       - hour: "9:00 - 10:00"
         where:
         who: "Laura Parisi"
-        descr: "B.C.E."
+        descr: "TBA"
         tag:
         id: speaker/#parisi
       - hour: "10:00 - 11:00"

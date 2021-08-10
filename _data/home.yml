@@ -2,14 +2,14 @@ logo: "img/logo-white.png"
 longname: "<b>Sezione Giovani 2021</b>"
 
 who:
-    text: "Tutti gli studenti interessati"
+    text: "Tutti gli studenti interessati iscritti ad AISF possono partecipare. Le nuove iscrizioni o rinnovi rimarranno validi per tutto il prossimo anno accademico! <br/><br/> <a href='http://ai-sf.it/iscrizione/'>Iscriviti ad AISF</a>"
 
 when: "Giovedì 16 Settembre 2021,<br/> dalle 9:00 alle 13:00"
 
-where: "A causa della situazione pandemica, anche quest'anno SG si svolgerà online"
+where: "A causa della situazione pandemica, SG21 si svolgerà online sulla piattaforma web dedicata al 107° Congresso SIF. Tutte le istruzioni per collegarsi verranno inviate ai partecipanti nei giorni precedenti l'evento."
 
 slideshow:
   - img: img/SG21mobile.png
     alt: "107° Congresso Nazionale SIF"
 
-paragraph: "Anche quest'anno AISF organizza la Sezione Giovani (SG), evento pensato per studenti di fisica inserito all'interno della programmazione del <a href='https://www.sif.it/attivita/congresso/107' target='_blank'>107° Congresso Nazionale</a> della Società Italiana di Fisica.  La SG 2021 sarà incentrata sulle opportunità per i giovani all'interno dell'Unione Europea (BCE, ERC, startup, ecc.)."
+paragraph: "Anche quest'anno AISF organizza la Sezione Giovani (SG), evento pensato per studenti di fisica inserito all'interno della programmazione del <a href='https://www.sif.it/attivita/congresso/107' target='_blank'>107° Congresso Nazionale</a> della Società Italiana di Fisica. La SG 2021 sarà incentrata sulle opportunità per i giovani all'interno dell'Unione Europea. Insieme ai nostri <a href='https://ai-sf.it/sg2021/speaker/'>speakers</a> scopriremo e confronteremo ambiti di lavoro e ricerca molto diversi, ma con un comune denominatore: lo sguardo all'#EU. Organi istituzionali come la #BCE, progetti di punta finanziati da #ERC Grant e il mondo delle #startup -veri motori di innovazione- si incontreranno in questa mattinata ricca di spunti e opportunità di scambio."
