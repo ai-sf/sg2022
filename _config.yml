@@ -1,7 +1,7 @@
 # Site settings
 title: "Sezione Giovani 2021"
 description: "Sezione Giovani 2021"
-url: "http://ai-sf.it/sg2021"
+url: "https://ai-sf.it/sg2021"
 destination: ../site/
 locale: "it"
 
