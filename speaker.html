@@ -20,6 +20,11 @@ title: Speaker invitati
 			{% endfor %}
 			<br/>
 		{% endif %}
+        {% if item.img == nil %}
+        {% if item.group == nil %}
+        <img src="{{ site.url }}/img/speaker/default.png" alt="" class="circle">
+        {% endif %}
+        {% endif %}
 		<span class="title">
     	<b>{{ item.nome }}</b>
     </span>
