@@ -4,19 +4,19 @@ schedule:
     day_ex: Giovedì 16 Settembre
     short_descr:
     activity:
-      - hour: "9:00 - 10:00"
+      - hour: "9:30 - 10:30"
         where:
         who: "Laura Parisi"
         descr: "TBA"
         tag:
         id: speaker/#parisi
-      - hour: "10:00 - 11:00"
+      - hour: "13:00 - 11:45"
         where:
         who: "Gabriele Rosi"
         descr: "Measuring the Gravitational constant with atom interferometry for fundamental physics test"
         tag: "sera"
         id: speaker/#rosi
-      - hour: "11:00 - 12:00"
+      - hour: "11:45 - 12:00"
         where:
         who: "Francesca Bellini"
         descr: "The CosmicAntiNuclei project: from the proposal to the starting blocks "
