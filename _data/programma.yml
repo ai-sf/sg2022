@@ -10,7 +10,7 @@ schedule:
         descr: "TBA"
         tag:
         id: speaker/#parisi
-      - hour: "13:00 - 11:15"
+      - hour: "10:30 - 11:15"
         where:
         who: "Gabriele Rosi"
         descr: "Measuring the Gravitational constant with atom interferometry for fundamental physics test"
