@@ -1,15 +1,15 @@
-logo: "img/logo-white.png"
 longname: "<b>Sezione Giovani 2021</b>"
 
 who:
-    text: "Tutti gli studenti interessati iscritti ad AISF possono partecipare. Le nuove iscrizioni o rinnovi rimarranno validi per tutto il prossimo anno accademico! <br/><br/> <a href='http://ai-sf.it/iscrizione/'>Iscriviti ad AISF</a>"
+    text: "Tutti gli studenti interessati possono partecipare!"
 
-when: "Giovedì 16 Settembre 2021,<br/> dalle 9:00 alle 13:00"
+when: "Giovedì 15 settembre 2022, dalle 9:00 alle 13:00"
 
-where: "A causa della situazione pandemica, SG21 si svolgerà online sulla piattaforma web dedicata al 107° Congresso SIF. Tutte le istruzioni per collegarsi verranno inviate ai partecipanti nei giorni precedenti l'evento."
+where: "Politecnico di Milano (campus Leonardo)"
 
 slideshow:
-  - img: img/SG21mobile.png
+  - img: img/SG22_sito.png
     alt: "107° Congresso Nazionale SIF"
+    mobile: img/SG22_sitomobile.png
 
-paragraph: "Anche quest'anno AISF organizza la Sezione Giovani (SG), evento pensato per studenti di fisica inserito all'interno della programmazione del <a href='https://www.sif.it/attivita/congresso/107' target='_blank'>107° Congresso Nazionale</a> della Società Italiana di Fisica. La SG 2021 sarà incentrata sulle opportunità per i giovani all'interno dell'Unione Europea. Insieme ai nostri <a href='https://ai-sf.it/sg2021/speaker/'>speakers</a> scopriremo e confronteremo ambiti di lavoro e ricerca molto diversi, ma con un comune denominatore: lo sguardo all'#EU. Organi istituzionali come la #BCE, progetti di punta finanziati da #ERC Grant e il mondo delle #startup -veri motori di innovazione- si incontreranno in questa mattinata ricca di spunti e opportunità di scambio."
+paragraph: "AISF e Young Minds prenderanno parte al 108° Congresso Nazionale della Società Italiana di Fisica con la Sezione Giovani (SG),  un momento pensato e dedicato ai giovani fisici. Il filo conduttore di questa quinta edizione di SG sarà l'Ambiente. Questa tematica di grande attualità sarà presentata da esperti del settore che spazieranno dallo stato dell'arte dell'energia nucleare e il suo ruolo nella transizione ecologica allo sviluppo di nuove tecnologie fotovoltaiche basate sulla perovskite, passando per lo studio del clima."

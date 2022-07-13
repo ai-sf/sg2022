@@ -1,12 +1,12 @@
 - text: "Programma"
   url: "programma"
-- text: "Speaker"
-  url:  "speaker"
 - text: "Iscrizioni"
   url: "registration"
 - text: "AISF"
   url: http://www.ai-sf.it
 - text: "SIF"
   url: https://www.sif.it/
+- text: "Young Minds"
+  url: https://www.epsyoungminds.org/
 - icon: "share"
   url: "contatti"

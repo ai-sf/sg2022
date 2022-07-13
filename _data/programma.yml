@@ -1,30 +1,33 @@
 schedule:
-  - day: 16/09
-    date: "160921"
-    day_ex: Giovedì 16 Settembre
+  - day: 15/09
+    date: "160922"
+    day_ex: Giovedì 15 Settembre
     short_descr:
     activity:
+      - hour: "9:00 - 9:30"
+        where:
+        who: "Saluti Istituzionali"
+        descr: ""
+        tag: "conf"
+        id:
       - hour: "9:30 - 10:30"
         where:
-        who: "Laura Parisi"
-        descr: "TBA"
+        who: "Francesco Romanelli"
+        descr: ""
+        tag: "conf"
+        id: speaker/#romanelli
+      - hour: "10:30 - 11:30"
+        where:
+        who: "Davide Faccialà"
+        descr: ""
         tag:
-        id: speaker/#parisi
-      - hour: "10:30 - 11:15"
-        where:
-        who: "Gabriele Rosi"
-        descr: "Measuring the Gravitational constant with atom interferometry for fundamental physics test"
-        tag: "sera"
-        id: speaker/#rosi
-      - hour: "11:15 - 12:00"
-        where:
-        who: "Francesca Bellini"
-        descr: "The CosmicAntiNuclei project: from the proposal to the starting blocks "
-        tag:
-        id: speaker/#bellini
-      - hour: "12:00 - 13:00"
-        where:
-        who: "Francesco Meinardi"
-        descr: "Technology transfer: how to bring laboratory research to the market"
-        tag: "sera"
-        id: speaker/#meinardi
+        id: speaker/#facciala
+      - hour: "11:30 - 12:00"
+        who: "Coffee Break"
+
+      - hour: "11:30 - 12:00"
+        who: "Claudia Pasquero "
+        descr: ""
+        tag: "conf"
+        id: speaker/#pasquero
+

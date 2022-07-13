@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1:4000/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <title>Sezione Giovani - Sezione Giovani del Congresso SIF 2021</title>
 
 
 <!-- og -->
     <meta property="og:title" content="Sezione Giovani">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://127.0.0.1:4000/">
+<meta property="og:url" content="/">
 
 
-<meta property="og:site_name" content="Sezione Giovani 2021">
+<meta property="og:site_name" content="">
 <meta property="og:locale" content="it">
 
 <meta property="fb:admins" content=""> <!-- editable in config.yml -->
@@ -28,7 +28,7 @@
 <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link href="http://127.0.0.1:4000/css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="/css/main.css" type="text/css" rel="stylesheet" media="screen"/>
 </head>
 
   <body>
@@ -36,7 +36,7 @@
       <nav class="custom1" role="navigation" style="z-index: 999; position:absolute;">
           <div class="nav-wrapper container">
               <a href="#" data-target="nav-mobile" class="button-collapse hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
-              <a id="logo-container" href="http://127.0.0.1:4000/index.html" class="brand-logo">Sezione Giovani</a>
+              <a id="logo-container" href="/index.html" class="brand-logo">Sezione Giovani</a>
                     <ul class="right hide-on-med-and-down">
   
   
@@ -44,7 +44,7 @@
     <li >
         <a
            
-              href="http://127.0.0.1:4000/programma"
+              href="/programma"
            
            >
            
@@ -58,21 +58,7 @@
     <li >
         <a
            
-              href="http://127.0.0.1:4000/speaker"
-           
-           >
-           
-                Speaker
-        </a>
-    </li>
-    
-
-  
-  
-    <li >
-        <a
-           
-              href="http://127.0.0.1:4000/registration"
+              href="/registration"
            
            >
            
@@ -114,7 +100,21 @@
     <li >
         <a
            
-              href="http://127.0.0.1:4000/contatti"
+              href="https://www.epsyoungminds.org/" target="_blank"
+           
+           >
+           
+                Young Minds
+        </a>
+    </li>
+    
+
+  
+  
+    <li >
+        <a
+           
+              href="/contatti"
            
            >
            
@@ -130,12 +130,12 @@
           </div>
       </nav>
       <ul id="nav-mobile" class="sidenav">
-    <li class="logo"><a id="mobile-logo-container" href="http://127.0.0.1:4000"><object id="front-page-logo" type="image/png" style="width:64px" data="http://127.0.0.1:4000/img/logo.png">Your browser does not support PNG</object></a></li>
+    <li class="logo"><a id="mobile-logo-container" href=""><object id="front-page-logo" type="image/png" style="width:64px" data="/img/logo.png">Your browser does not support PNG</object></a></li>
     
         
         <li><a
            
-              href="http://127.0.0.1:4000/programma"
+              href="/programma"
            
            >
           Programma
@@ -145,17 +145,7 @@
         
         <li><a
            
-              href="http://127.0.0.1:4000/speaker"
-           
-           >
-          Speaker
-        </a></li>
-        
-    
-        
-        <li><a
-           
-              href="http://127.0.0.1:4000/registration"
+              href="/registration"
            
            >
           Iscrizioni
@@ -185,7 +175,17 @@
         
         <li><a
            
-              href="http://127.0.0.1:4000/contatti"
+              href="https://www.epsyoungminds.org/" target="_blank"
+           
+           >
+          Young Minds
+        </a></li>
+        
+    
+        
+        <li><a
+           
+              href="/contatti"
            
            >
           
@@ -198,15 +198,19 @@
 
         <div class="slider fullscreen" id="slider-home">
   <div id="banner-description">
-    <img src="http://127.0.0.1:4000/img/logo-white.png" id="site-logo">
-    <div><b>Sezione Giovani 2021</b></div>
+    <!--<img src="/" id="site-logo">
+    <div><b>Sezione Giovani 2021</b></div>-->
   </div>
-  <div id="gradient-nav"></div>
+  <!--<div id="gradient-nav"></div>-->
   <div id="chevron-banner"><i class="material-icons">keyboard_arrow_down</i></div>
+
   <ul class="slides">
     
     <li>
-      <img src="http://127.0.0.1:4000/img/SG21mobile.png" alt="107° Congresso Nazionale SIF">
+      <picture>
+        <source media="(max-width: 900px)" srcset="img/SG22_sitomobile.png">
+        <img src="img/SG22_sito.png" alt="SG2022" style="object-fit: cover; object-position: top;">
+      </picture>
     </li>
     
   </ul>
@@ -223,7 +227,7 @@
             <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
             <h2 class="center">Who</h2>
             <p class="light center">
-              Tutti gli studenti interessati iscritti ad AISF possono partecipare. Le nuove iscrizioni o rinnovi rimarranno validi per tutto il prossimo anno accademico! <br/><br/> <a href='http://ai-sf.it/iscrizione/'>Iscriviti ad AISF</a></p>
+              Tutti gli studenti interessati possono partecipare!</p>
             
           </div>
         </div>
@@ -232,7 +236,7 @@
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">today</i></h2>
             <h2 class="center">When</h2>
-            <p class="light center">Giovedì 16 Settembre 2021,<br/> dalle 9:00 alle 13:00</p>
+            <p class="light center">Giovedì 15 settembre 2022, dalle 9:00 alle 13:00</p>
           </div>
         </div>
 
@@ -240,7 +244,7 @@
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">location_on</i></h2>
             <h2 class="center">Where</h2>
-            <p class="light center">A causa della situazione pandemica, SG21 si svolgerà online sulla piattaforma web dedicata al 107° Congresso SIF. Tutte le istruzioni per collegarsi verranno inviate ai partecipanti nei giorni precedenti l'evento.</p>
+            <p class="light center">Politecnico di Milano (campus Leonardo)</p>
           </div>
         </div>
       </div>
@@ -252,7 +256,7 @@
           <div class="col s8 offset-s2">
             <div class="icon-block">
               <h3 class="center"><i class="medium material-icons custom1-text">send</i></h3>
-              <p class="center light">Anche quest'anno AISF organizza la Sezione Giovani (SG), evento pensato per studenti di fisica inserito all'interno della programmazione del <a href='https://www.sif.it/attivita/congresso/107' target='_blank'>107° Congresso Nazionale</a> della Società Italiana di Fisica. La SG 2021 sarà incentrata sulle opportunità per i giovani all'interno dell'Unione Europea. Insieme ai nostri <a href='https://ai-sf.it/sg2021/speaker/'>speakers</a> scopriremo e confronteremo ambiti di lavoro e ricerca molto diversi, ma con un comune denominatore: lo sguardo all'#EU. Organi istituzionali come la #BCE, progetti di punta finanziati da #ERC Grant e il mondo delle #startup -veri motori di innovazione- si incontreranno in questa mattinata ricca di spunti e opportunità di scambio.</p>
+              <p class="center light">AISF e Young Minds prenderanno parte al 108° Congresso Nazionale della Società Italiana di Fisica con la Sezione Giovani (SG),  un momento pensato e dedicato ai giovani fisici. Il filo conduttore di questa quinta edizione di SG sarà l'Ambiente. Questa tematica di grande attualità sarà presentata da esperti del settore che spazieranno dallo stato dell'arte dell'energia nucleare e il suo ruolo nella transizione ecologica allo sviluppo di nuove tecnologie fotovoltaiche basate sulla perovskite, passando per lo studio del clima.</p>
             </div>
           </div>
         </div>
@@ -282,19 +286,19 @@
           
 	        <li>
             
-            <a class="white-text" href="https://it-it.facebook.com/aisf.fisica/" target="_blank"><img src="http://127.0.0.1:4000/img/fb_logo.png"></a>
+            <a class="white-text" href="https://it-it.facebook.com/aisf.fisica/" target="_blank"><img src="/img/fb_logo.png"></a>
             
           </li>
           
 	        <li>
             
-            <a class="white-text" href="https://www.instagram.com/aisf_fisica/" target="_blank"><img src="http://127.0.0.1:4000/img/insta_logo.png"></a>
+            <a class="white-text" href="https://www.instagram.com/aisf_fisica/" target="_blank"><img src="/img/insta_logo.png"></a>
             
           </li>
           
 	        <li>
             
-            <a class="white-text" href="https://twitter.com/aisf_fisica" target="_blank"><img src="http://127.0.0.1:4000/img/tw_logo.png"></a>
+            <a class="white-text" href="https://twitter.com/aisf_fisica" target="_blank"><img src="/img/tw_logo.png"></a>
             
           </li>
           
@@ -317,10 +321,10 @@
   </body>
   
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>
-<script src="http://127.0.0.1:4000/js/materialize.min.js"></script>
-<script src="http://127.0.0.1:4000/js/init.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="/js/init.js"></script>
 
-<script src="http://127.0.0.1:4000/js/home.js"></script>
+<script src="/js/home.js"></script>
 
 
 </html>
