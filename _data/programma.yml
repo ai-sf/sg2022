@@ -13,13 +13,13 @@ schedule:
       - hour: "9:30 - 10:30"
         where:
         who: "Francesco Romanelli"
-        descr: ""
+        descr: "L’energia da fissione e da fusione. Quali prospettive per la transizione ecologica?"
         tag: "conf"
         id: speaker/#romanelli
       - hour: "10:30 - 11:30"
         where:
         who: "Davide Faccialà"
-        descr: ""
+        descr: "Soft-X-ray spectroscopy of ultrafast dynamics in materials for solar energy applications."
         tag:
         id: speaker/#facciala
       - hour: "11:30 - 12:00"

@@ -2,6 +2,8 @@
   url: "programma"
 - text: "Iscrizioni"
   url: "registration"
+- text: "Speaker"
+  url: "speaker"
 - text: "AISF"
   url: http://www.ai-sf.it
 - text: "SIF"
