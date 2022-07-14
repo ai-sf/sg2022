@@ -25,7 +25,7 @@ schedule:
       - hour: "11:30 - 12:00"
         who: "Coffee Break"
 
-      - hour: "11:30 - 12:00"
+      - hour: "12:00 - 13:00"
         who: "Claudia Pasquero "
         descr: ""
         tag: "conf"
