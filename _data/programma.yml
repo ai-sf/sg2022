@@ -27,7 +27,7 @@ schedule:
 
       - hour: "11:30 - 12:00"
         who: "Claudia Pasquero "
-        descr: ""
+        descr: "Eventi estremi in un clima che cambia."
         tag: "conf"
         id: speaker/#pasquero
 

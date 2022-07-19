@@ -15,7 +15,7 @@ content:
 
 - nome: "Davide Faccialà"
   id: facciala
-  uni: "Istituto Nazionale di Fisica Nucleare; Università degli Studi di Firenze"
+  uni: "Istituto di Fotonica e Nanotecnologie, Consiglio Nazionale delle Ricerche, Milano, 20133, Italy"
   img: "facciala.jpeg"
   title: "Soft-X-ray spectroscopy of ultrafast dynamics in materials for solar energy applications."
   bio: "Dopo la laurea magistrale in Ingegneria Fisica presso il Politecnico di Milano, il dott. Davide Faccialà ha proseguito con un Dottorato di Ricerca presso la stessa università. Dal 2017 è Postdoc researcher presso l'Istituto di Fotonica e Nanotecnologia CNR-IFN. La sua attività di ricerca riguarda prevalentemente high order harmonic generation (HHG) nei solidi e lo sviluppo di setup all'attosecondo per lo studio di assorbimenti in molecole biologiche. Tra i suoi interessi di ricerca compaiono inoltre la spettroscopia non lineare, XUV ultrafast e spettroscopia a raggi X, oltre alla fisica atomica e molecolare in generale."
@@ -27,7 +27,7 @@ content:
   id: pasquero
   uni: "Dipartimento di Fisica e Astronomia, Università di Bologna"
   img: "pasquero.jpeg"
-  #title: "The CosmicAntiNuclei project: from the proposal to the starting blocks"
+  title: " Eventi estremi in un clima che cambia."
   bio: "La prof.ssa Pasquero è professore associato in Oceanografia e Fisica dell'Atmosfera presso l'Università degli Studi di Milano Bicocca, è ricercatore associato all'Istituto della Scienza dell'Atmosfera e del Clima del CNR e vice-presidente della Commissione di Matematica Geofisica dell'Unione Internazionale di Geodesia e Geofisica. La prof.ssa Pasquero studia le interazioni tra oceani e clima e si occupa, inoltre, dell'interazione tra le dinamiche oceaniche e gli ecosistemi marini. Recentemente, le sue ricerche hanno significativamente migliorato lo sviluppo della comprensione della dinamica di tifoni e uragani. La prof.ssa Pasquero ha pubblicato più di 25 articoli su giornali internazionali e ha all'attivo diversi progetti di interesse nazionale ed internazionale."
   #abstract:
   link:
