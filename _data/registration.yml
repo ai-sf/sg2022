@@ -14,6 +14,6 @@ description:
             - line: "Beneficiario: Associazione Italiana Studenti di Fisica"
             - line: "IBAN: IT20J0306909606100000133131"
             - line: "BIC/SWIFT: BCITITMMXXX"
-            - line: "Causale: Quota iscrizione SG2022"
+            - line: "Causale: NOME COGNOME Quota iscrizione SG2022"
 
 ending_date: "2022-09-01 12:00"
