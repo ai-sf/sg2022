@@ -29,6 +29,6 @@ content:
   img: "pasquero.jpeg"
   title: " Eventi estremi in un clima che cambia."
   bio: "La prof.ssa Pasquero è professore associato in Oceanografia e Fisica dell'Atmosfera presso l'Università degli Studi di Milano Bicocca, è ricercatore associato all'Istituto della Scienza dell'Atmosfera e del Clima del CNR e vice-presidente della Commissione di Matematica Geofisica dell'Unione Internazionale di Geodesia e Geofisica. La prof.ssa Pasquero studia le interazioni tra oceani e clima e si occupa, inoltre, dell'interazione tra le dinamiche oceaniche e gli ecosistemi marini. Recentemente, le sue ricerche hanno significativamente migliorato lo sviluppo della comprensione della dinamica di tifoni e uragani. La prof.ssa Pasquero ha pubblicato più di 25 articoli su giornali internazionali e ha all'attivo diversi progetti di interesse nazionale ed internazionale."
-  #abstract:
+  abstract: "Eventi intensi come ondate di calore e di freddo, periodi di siccità, forti precipitazioni ed uragani dipendono da processi dinamici e termodinamici. Verrà discussa la dipendenza di questi fenomeni dal cambiamento climatico in atto, evidenziando aspetti noti e problemi aperti nella loro comprensione. In particolare, verrà evidenziato il ruolo degli oceani e delle terre emerse nell'influenzare il clima, la sua variabilità e gli eventi estremi."
   link:
   slides:
