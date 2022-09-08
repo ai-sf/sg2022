@@ -31,3 +31,8 @@ schedule:
         tag: "conf"
         id: speaker/#pasquero
 
+      - hour: "19:15"
+        who: "Concerto di Brahms"
+        descr: "Concerto con, a seguire, cena"
+
+
